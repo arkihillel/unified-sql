@@ -1,0 +1,41 @@
+{
+  "name": "unified-sql",
+  "version": "1.0.0",
+  "description": "A simple Node.js package built to query different DBs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arkihillel/unified-sql.git"
+  },
+  "keywords": [
+    "oracle",
+    "postgresql",
+    "mongodb",
+    "sqlserver",
+    "cassandra",
+    "db2",
+    "sybase",
+    "mariadb",
+    "mysql"
+  ],
+  "author": "Hillel Arki <arki.hillel@gmail.com> (https://github.com/arkihillel)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arkihillel/unified-sql/issues"
+  },
+  "homepage": "https://github.com/arkihillel/unified-sql#readme",
+  "dependencies": {
+    "cassandra-driver": "^2.2.2",
+    "mariasql": "^0.2.5",
+    "mongodb": "^2.1.0",
+    "mysql": "^2.9.0",
+    "pg": "^4.4.3",
+    "sybase": "^1.0.8",
+    "tedious": "^1.13.1",
+    "oracledb": "~1.1.0",
+    "ibm_db": "0.0.15"
+  }
+}
